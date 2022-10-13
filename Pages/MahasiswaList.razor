@@ -9,12 +9,17 @@
 
 <p>This component demonstrates fetching data Mahasiswa from the server.</p>
 
-@if (mhslist == null)
+@if (mhs == null)
 {
     <p><em>Loading...</em></p>
 }
 else
 {
+    <div class="input-group col">
+        <input type="text" class="form-control" placeholder="Cari Mahasiswa" @bind="SearchString" />
+        <button @onclick="CariData">Cari</button>
+
+    </div>
     <table class="table">
         <thead>
             <tr>
@@ -27,7 +32,7 @@ else
             </tr>
         </thead>
         <tbody>
-            @foreach (var mh in mhslist)
+            @foreach (var mh in mhs)
             {
                 <tr>
                     <td>@mh.id</td>
@@ -39,28 +44,27 @@ else
                 </tr>
             }
         </tbody>
+        <div class="card-footer text-center">
+                <a href="insertmhs" class="btn btn-primary m-1">Add</a>
+        </div>
     </table>
 }
 
 @code {
-    private Mahasiswa[]? mhslist;
 
     protected override async Task OnInitializedAsync()
     {
-        mhslist = await Http.GetFromJsonAsync<Mahasiswa[]>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/72170177");
+        mhs = await Http.GetFromJsonAsync<List<Mahasiswa>>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/383");
+        searchUserData = mhs;
     }
-public class Mahasiswa
-    {
-        public int id { get; set; }
-
-        public string nama { get; set; }
-
-        public string nim { get; set; }
-
-        public string alamat { get; set; }
-        
-        public string email { get; set; }
-
-        public string foto { get; set; }
+    protected List<Mahasiswa> searchUserData = new();
+    protected List<Mahasiswa> mhs = new();
+    protected string SearchString { get; set; } = string.Empty;
+    protected void CariData(){
+        if (!string.IsNullOrEmpty(SearchString)){
+            mhs = searchUserData.Where(x => x.nim.IndexOf(SearchString, StringComparison.OrdinalIgnoreCase) != -1).ToList();
+        }else{
+            mhs = searchUserData;
+        }
     }
 }
