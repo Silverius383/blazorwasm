@@ -1,0 +1,13 @@
+@using System.Net.Http
+@using System.Threading.Tasks
+@inject HttpClient Http
+
+<input @bind="id" />
+<button @onclick="DeleteItem">Delete</button>
+
+@code {
+    private long id;
+
+    private async Task DeleteItem() =>
+        await Http.DeleteAsync("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/delete");
+}

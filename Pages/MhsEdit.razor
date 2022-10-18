@@ -1,0 +1,66 @@
+@page "/mhsedit"
+@inject HttpClient Http
+@using System.Net.Http
+@using System.Net.Http.Json
+@using System.Threading.Tasks
+
+<PageTitle>List mahasiswa</PageTitle>
+
+<h1>Mahasiswa SI UKDW</h1>
+
+<p>This component demonstrates fetching data Mahasiswa from the server.</p>
+
+@if (mhs == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <table class="table">
+        <thead>
+            <tr>
+                <th>Nama</th>
+                <th>NIM</th>
+                <th>Alamat</th>
+                <th>Email</th>
+                <th>Foto</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var mh in mhs)
+            {
+                <tr>
+                    <td><input @bind="newNama" placeholder="@mh.nama"/></td>
+                    <td><input @bind="newNim" placeholder="@mh.nim"/></td>
+                    <td><input @bind="newAlamat" placeholder="@mh.alamat"/></td>
+                    <td><input @bind="newEmail" placeholder="@mh.email"/></td>
+                    <td><input @bind="newFoto" placeholder="@mh.foto"/></td>
+                    <td><input @bind="newNimprogmob" placeholder="@mh.nim_progmob"/></td>
+                </tr>
+            }
+        </tbody>
+        <div class="card-footer text-center">
+                <button @onclick="SaveItem">Save</button>
+        </div>
+    </table>
+}
+
+@code {
+    public int newid ;
+    public string? newNama;
+    public string? newNim;
+    public string? newAlamat;
+    public string? newEmail;
+    public string? newFoto;
+    public string? newNimprogmob;
+
+    private Mahasiswa[]? mhs;
+    protected override async Task OnInitializedAsync() => 
+        mhs = await Http.GetFromJsonAsync<Mahasiswa[]>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/414");
+    
+    private async Task SaveItem() {
+        var editItem = new Mahasiswa {  nama = newNama, nim = newNim, alamat = newAlamat, email = newEmail, foto = newFoto, nim_progmob = newNimprogmob };
+        await Http.PutAsJsonAsync("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/update/", editItem);
+    }
+}
+

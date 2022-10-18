@@ -26,6 +26,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/KULIAH/blazorwasm/Pages/Delete.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRGVsZXRlLnJhem9y
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/KULIAH/blazorwasm/Pages/EmployeeList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcRW1wbG95ZWVMaXN0LnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
@@ -44,6 +48,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [D:/KULIAH/blazorwasm/Pages/MahasiswaList.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWFoYXNpc3dhTGlzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KULIAH/blazorwasm/Pages/MhsEdit.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcTWhzRWRpdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
 
 [D:/KULIAH/blazorwasm/Shared/SurveyPrompt.razor]

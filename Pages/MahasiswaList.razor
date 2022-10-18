@@ -54,7 +54,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        mhs = await Http.GetFromJsonAsync<List<Mahasiswa>>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/383");
+        mhs = await Http.GetFromJsonAsync<List<Mahasiswa>>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/5555");
         searchUserData = mhs;
     }
     protected List<Mahasiswa> searchUserData = new();
