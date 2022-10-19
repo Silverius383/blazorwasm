@@ -41,6 +41,8 @@ else
                     <td>@mh.alamat</td>
                     <td>@mh.email</td>
                     <td>@mh.foto</td>
+                <a href="deletemhs" >Delete</a>
+                <a href="mhsedit" >Edit</a>
                 </tr>
             }
         </tbody>
@@ -54,7 +56,7 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        mhs = await Http.GetFromJsonAsync<List<Mahasiswa>>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/5555");
+        mhs = await Http.GetFromJsonAsync<List<Mahasiswa>>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/414");
         searchUserData = mhs;
     }
     protected List<Mahasiswa> searchUserData = new();

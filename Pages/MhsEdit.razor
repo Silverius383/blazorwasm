@@ -60,7 +60,7 @@ else
     
     private async Task SaveItem() {
         var editItem = new Mahasiswa {  nama = newNama, nim = newNim, alamat = newAlamat, email = newEmail, foto = newFoto, nim_progmob = newNimprogmob };
-        await Http.PutAsJsonAsync("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/update/", editItem);
+        await Http.PostAsJsonAsync("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/update", editItem);
     }
 }
 
