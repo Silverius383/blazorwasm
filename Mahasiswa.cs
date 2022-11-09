@@ -5,6 +5,7 @@ public class Mahasiswa
         public string nama { get; set; }
 
         public string nim { get; set; }
+        public string Unim_cari { get; set; }
 
         public string alamat { get; set; }
         

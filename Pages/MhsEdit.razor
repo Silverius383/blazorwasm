@@ -1,66 +1,52 @@
 @page "/mhsedit"
-@inject HttpClient Http
 @using System.Net.Http
 @using System.Net.Http.Json
-@using System.Threading.Tasks
+@inject HttpClient Http
+@inject NavigationManager Navi
 
-<PageTitle>List mahasiswa</PageTitle>
 
-<h1>Mahasiswa SI UKDW</h1>
-
-<p>This component demonstrates fetching data Mahasiswa from the server.</p>
-
-@if (mhs == null)
-{
-    <p><em>Loading...</em></p>
-}
-else
-{
-    <table class="table">
-        <thead>
-            <tr>
-                <th>Nama</th>
-                <th>NIM</th>
-                <th>Alamat</th>
-                <th>Email</th>
-                <th>Foto</th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var mh in mhs)
-            {
-                <tr>
-                    <td><input @bind="newNama" placeholder="@mh.nama"/></td>
-                    <td><input @bind="newNim" placeholder="@mh.nim"/></td>
-                    <td><input @bind="newAlamat" placeholder="@mh.alamat"/></td>
-                    <td><input @bind="newEmail" placeholder="@mh.email"/></td>
-                    <td><input @bind="newFoto" placeholder="@mh.foto"/></td>
-                    <td><input @bind="newNimprogmob" placeholder="@mh.nim_progmob"/></td>
-                </tr>
-            }
-        </tbody>
-        <div class="card-footer text-center">
-                <button @onclick="SaveItem">Save</button>
-        </div>
-    </table>
-}
+<input @bind="@ditnama" />
+<input @bind="@ditnim"  />
+<input @bind="@ditalamat" />
+<input @bind="@ditemail" />
+<input @bind="@ditfoto" />
+<input @bind="@ditnim_progmob" />
+<button @onclick="UpdateMhs">Update</button>
+<button @onclick="DeleteMhs">Delete</button>
 
 @code {
-    public int newid ;
-    public string? newNama;
-    public string? newNim;
-    public string? newAlamat;
-    public string? newEmail;
-    public string? newFoto;
-    public string? newNimprogmob;
+    [Parameter]
+[SupplyParameterFromQuery(Name = "id")]
+    public int Uid {get;set;}
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "nama")]
+    public string ditnama {get;set;}
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "nim")]
+    public string ditnim {get;set;}
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "alamat")]
+    public string ditalamat {get;set;}
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "email")]
+    public string ditemail {get;set;}
+    [Parameter]
+    [SupplyParameterFromQuery(Name = "foto")]
+    public string ditfoto {get;set;}
 
-    private Mahasiswa[]? mhs;
-    protected override async Task OnInitializedAsync() => 
-        mhs = await Http.GetFromJsonAsync<Mahasiswa[]>("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/414");
-    
-    private async Task SaveItem() {
-        var editItem = new Mahasiswa {  nama = newNama, nim = newNim, alamat = newAlamat, email = newEmail, foto = newFoto, nim_progmob = newNimprogmob };
+    public string? ditnim_progmob;
+ 
+
+    public async Task UpdateMhs()
+    {
+        var editItem = new Mahasiswa {  nama = ditnama, nim = ditnim, Unim_cari=ditnim, alamat = ditalamat, email = ditemail, foto = ditfoto, nim_progmob = ditnim_progmob , id =Uid};
         await Http.PostAsJsonAsync("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/update", editItem);
+        Navi.NavigateTo("mahasiswa");
+    }
+    public async Task DeleteMhs()
+    {
+        var DeleteItem = new Mahasiswa {  nim_progmob = ditnim_progmob , id =Uid};
+        await Http.PostAsJsonAsync("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/delete", DeleteItem);
+        Navi.NavigateTo("mahasiswa");
     }
 }
-

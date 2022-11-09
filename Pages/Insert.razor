@@ -3,6 +3,9 @@
 @using System.Net.Http.Json
 @using System.Threading.Tasks
 @inject HttpClient Http
+@inject NavigationManager Navi
+@using System.ComponentModel.DataAnnotations
+
 
 <input @bind="newNama" placeholder="Nama" />
 <input @bind="newNim" placeholder="Nim" />
@@ -11,9 +14,13 @@
 <input @bind="newFoto" placeholder="Foto" />
 <input @bind="newNimprogmob" placeholder="Nim_progmob" />
 <button @onclick="AddMhs">Add</button>
-
+<DataAnnotationsValidator />
+    <ValidationSummary />
 @code {
+    
     public int newid ;
+
+    [Required]
     public string? newNama;
     public string? newNim;
     public string? newAlamat;
@@ -23,8 +30,10 @@
 
     public async Task AddMhs()
     {
+        
         var addItem = new Mahasiswa {  nama = newNama, nim = newNim, alamat = newAlamat, email = newEmail, foto = newFoto, nim_progmob = newNimprogmob };
         await Http.PostAsJsonAsync("https://kpsi.fti.ukdw.ac.id/api/progmob/mhs/create", addItem);
+        Navi.NavigateTo("mahasiswa");
     }
 
 }
