@@ -22,6 +22,26 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = QXBwLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
+[D:/KULIAH/blazorwasm/lib/ComponentLibrary/ExtraStyles.razor]
+build_metadata.AdditionalFiles.TargetPath = bGliXENvbXBvbmVudExpYnJhcnlcRXh0cmFTdHlsZXMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KULIAH/blazorwasm/lib/ComponentLibrary/_Imports.razor]
+build_metadata.AdditionalFiles.TargetPath = bGliXENvbXBvbmVudExpYnJhcnlcX0ltcG9ydHMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KULIAH/blazorwasm/Pages/ConsumeComponent1.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VtZUNvbXBvbmVudDEucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KULIAH/blazorwasm/Pages/ConsumeComponent2.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VtZUNvbXBvbmVudDIucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KULIAH/blazorwasm/Pages/ConsumeComponent3.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ29uc3VtZUNvbXBvbmVudDMucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
 [D:/KULIAH/blazorwasm/Pages/Counter.razor]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ291bnRlci5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 
@@ -69,6 +89,10 @@ build_metadata.AdditionalFiles.CssScope =
 [D:/KULIAH/blazorwasm/_Imports.razor]
 build_metadata.AdditionalFiles.TargetPath = X0ltcG9ydHMucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
+
+[D:/KULIAH/blazorwasm/lib/ComponentLibrary/Component1.razor]
+build_metadata.AdditionalFiles.TargetPath = bGliXENvbXBvbmVudExpYnJhcnlcQ29tcG9uZW50MS5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = b-xw023pedp0
 
 [D:/KULIAH/blazorwasm/Shared/MainLayout.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkXE1haW5MYXlvdXQucmF6b3I=
