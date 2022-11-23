@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ZvOnRBFs3ZhzSVU/caqKhT0bR+9An62mBpXRcIzjZI0=",
+  "Hash": "DUvFSzTqFoR764lswQ2K2gvEIfBa+8X1l7jd4p82X3U=",
   "Source": "ComponentLibrary",
   "BasePath": "_content/ComponentLibrary",
   "Mode": "Default",
@@ -16,6 +16,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\LENOVO\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\LENOVO\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\LENOVO\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\lib\\ComponentLibrary\\obj\\Debug\\net6.0\\scopedcss\\bundle\\ComponentLibrary.styles.css",
       "SourceId": "ComponentLibrary",

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "LBcmjo5mQZn9Q/2Fwyvs2GKygFGFxT6jfr+RMb9SZ4E=",
+  "Hash": "6TspVvthnbplrayPxXLCEKxnDNLTOMu/2KGMb7sPzTo=",
   "Source": "blazorwasm",
   "BasePath": "/",
   "Mode": "Root",
@@ -35,6 +35,40 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\LENOVO\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.css",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\LENOVO\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.css"
+    },
+    {
+      "Identity": "C:\\Users\\LENOVO\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.js",
+      "SourceId": "MudBlazor",
+      "SourceType": "Package",
+      "ContentRoot": "C:\\Users\\LENOVO\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\",
+      "BasePath": "_content/MudBlazor",
+      "RelativePath": "MudBlazor.min.js",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\mudblazor\\6.1.2\\staticwebassets\\MudBlazor.min.js"
+    },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\blazor.boot.json",
       "SourceId": "blazorwasm",
@@ -271,7 +305,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
+      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.authorization\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Authorization.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
@@ -288,7 +322,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.components\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
@@ -305,7 +339,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
@@ -322,7 +356,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
+      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.components.web\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll",
@@ -356,7 +390,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.8\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
+      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.aspnetcore.metadata\\6.0.10\\lib\\net6.0\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.CSharp.dll",
@@ -492,7 +526,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll",
@@ -560,7 +594,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.2\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -628,7 +662,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.jsinterop\\6.0.8\\lib\\net6.0\\Microsoft.JSInterop.dll"
+      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.jsinterop\\6.0.10\\lib\\net6.0\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.WebAssembly.dll",
@@ -731,6 +765,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\6.0.8\\runtimes\\browser-wasm\\lib\\net6.0\\mscorlib.dll"
+    },
+    {
+      "Identity": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "SourceId": "blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\LENOVO\\.nuget\\packages\\mudblazor\\6.1.2\\lib\\net6.0\\MudBlazor.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\netstandard.dll",
@@ -3657,6 +3708,23 @@
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.Encoding.dll"
     },
     {
+      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\+I5zxYib.gz",
+      "SourceId": "blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
+    },
+    {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\+khx4Kiu.gz",
       "SourceId": "blazorwasm",
       "SourceType": "Computed",
@@ -3844,6 +3912,23 @@
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.Compression.Brotli.dll"
     },
     {
+      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\3sWKwPm2.gz",
+      "SourceId": "blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/MudBlazor.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\MudBlazor.dll"
+    },
+    {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\3xkLBQRi.gz",
       "SourceId": "blazorwasm",
       "SourceType": "Computed",
@@ -3963,23 +4048,6 @@
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.DispatchProxy.dll"
     },
     {
-      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\6+nr6EEp.gz",
-      "SourceId": "blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
-    },
-    {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\6ghWlYcS.gz",
       "SourceId": "blazorwasm",
       "SourceType": "Computed",
@@ -4014,21 +4082,21 @@
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.timezones.blat"
     },
     {
-      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\7fN+hcq6.gz",
+      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\7ehfMtyq.gz",
       "SourceId": "blazorwasm",
       "SourceType": "Computed",
       "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
+      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
+      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\7nKjuxw7.gz",
@@ -4575,6 +4643,23 @@
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.TypeConverter.dll"
     },
     {
+      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\EGB0hLZK.gz",
+      "SourceId": "blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
+    },
+    {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\EHJh8crm.gz",
       "SourceId": "blazorwasm",
       "SourceType": "Computed",
@@ -4641,23 +4726,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Tasks.Dataflow.dll"
-    },
-    {
-      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\F9CBaVXm.gz",
-      "SourceId": "blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Web.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Web.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\Fd5vO5a6.gz",
@@ -5221,23 +5289,6 @@
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.IO.FileSystem.Primitives.dll"
     },
     {
-      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\KHavoT76.gz",
-      "SourceId": "blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
-    },
-    {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\KL8UsQ14.gz",
       "SourceId": "blazorwasm",
       "SourceType": "Computed",
@@ -5544,23 +5595,6 @@
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.WebAssembly.dll"
     },
     {
-      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\Mr9V1ZeY.gz",
-      "SourceId": "blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Authorization.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Authorization.dll"
-    },
-    {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\n7ygXqHp.gz",
       "SourceId": "blazorwasm",
       "SourceType": "Computed",
@@ -5661,23 +5695,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Principal.dll"
-    },
-    {
-      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\o2uMjkd6.gz",
-      "SourceId": "blazorwasm",
-      "SourceType": "Computed",
-      "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\o4cUtqIH.gz",
@@ -5782,6 +5799,23 @@
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\dotnet.wasm"
     },
     {
+      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\oscHu8Fn.gz",
+      "SourceId": "blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\OtoB6DJI.gz",
       "SourceId": "blazorwasm",
       "SourceType": "Computed",
@@ -5850,21 +5884,21 @@
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ServiceProcess.dll"
     },
     {
-      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\Q5f3DJIf.gz",
+      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\PRL1+nH0.gz",
       "SourceId": "blazorwasm",
       "SourceType": "Computed",
       "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.AspNetCore.Components.Forms.dll.gz",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Components.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll",
+      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.Forms.dll"
+      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Components.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\Q5NRfS9f.gz",
@@ -6581,6 +6615,23 @@
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\WindowsBase.dll"
     },
     {
+      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\WHRvdPxv.gz",
+      "SourceId": "blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\WwzEjoum.gz",
       "SourceId": "blazorwasm",
       "SourceType": "Computed",
@@ -6768,6 +6819,23 @@
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Globalization.Extensions.dll"
     },
     {
+      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\yGkltEcF.gz",
+      "SourceId": "blazorwasm",
+      "SourceType": "Computed",
+      "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.AspNetCore.Metadata.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.AspNetCore.Metadata.dll"
+    },
+    {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\ykps3L3P.gz",
       "SourceId": "blazorwasm",
       "SourceType": "Computed",
@@ -6853,21 +6921,21 @@
       "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.dll"
     },
     {
-      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\ZaASlttF.gz",
+      "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\zfZMsMwV.gz",
       "SourceId": "blazorwasm",
       "SourceType": "Computed",
       "ContentRoot": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\",
       "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "RelativePath": "_framework/Microsoft.JSInterop.dll.gz",
       "AssetKind": "Build",
       "AssetMode": "All",
       "AssetRole": "Alternative",
-      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "RelatedAsset": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "D:\\KULIAH\\blazorwasm\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll"
     },
     {
       "Identity": "D:\\KULIAH\\blazorwasm\\obj\\Debug\\net6.0\\build-gz\\ZgESjJeP.gz",
