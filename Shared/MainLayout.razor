@@ -8,6 +8,9 @@
         My Application
     </MudAppBar>
     <MudDrawer @bind-Open="@_drawerOpen">
+        <article class="bottom-row px-4">
+    <CultureSelector />
+</article>
         <NavMenu/>
     </MudDrawer>
     <MudMainContent>
