@@ -1187,6 +1187,6 @@ D:\KULIAH\blazorwasm\bin\Debug\net6.0\es\blazorwasm.resources.dll
 D:\KULIAH\blazorwasm\obj\Debug\net6.0\blazorwasm.Pages.CultureExample2.es.resources
 D:\KULIAH\blazorwasm\obj\Debug\net6.0\es\blazorwasm.resources.cs
 D:\KULIAH\blazorwasm\obj\Debug\net6.0\es\blazorwasm.resources.dll
-d:\KULIAH\blazorwasm\obj\Debug\net6.0\build-gz\wLbc85Ns.gz
-d:\KULIAH\blazorwasm\obj\Debug\net6.0\build-gz\XJeF2GbJ.gz
-d:\KULIAH\blazorwasm\obj\Debug\net6.0\build-gz\xjDjkmNi.gz
+D:\KULIAH\blazorwasm\obj\Debug\net6.0\build-gz\XbeM2zJt.gz
+D:\KULIAH\blazorwasm\obj\Debug\net6.0\build-gz\at7xcnu9.gz
+D:\KULIAH\blazorwasm\obj\Debug\net6.0\build-gz\wegjcaKh.gz

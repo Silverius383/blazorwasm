@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\KULIAH\\blazorwasm\\blazorwasm.csproj": {}
+    "D:\\KULIAH\\blazorwasm\\blazorwasm.csproj": {}
   },
   "projects": {
-    "d:\\KULIAH\\blazorwasm\\blazorwasm.csproj": {
+    "D:\\KULIAH\\blazorwasm\\blazorwasm.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\KULIAH\\blazorwasm\\blazorwasm.csproj",
+        "projectUniqueName": "D:\\KULIAH\\blazorwasm\\blazorwasm.csproj",
         "projectName": "blazorwasm",
-        "projectPath": "d:\\KULIAH\\blazorwasm\\blazorwasm.csproj",
+        "projectPath": "D:\\KULIAH\\blazorwasm\\blazorwasm.csproj",
         "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-        "outputPath": "d:\\KULIAH\\blazorwasm\\obj\\",
+        "outputPath": "D:\\KULIAH\\blazorwasm\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"

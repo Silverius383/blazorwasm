@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jwxesLfYMl72gsreQ/JhIudZpJa50T39doNGD8pHVq1psMOWVxpgVjVMgsjC6L7nBoE1fUipiVijV95gvjOmlw==",
+  "dgSpecHash": "Xq4BIVPwC5lM+OYpa2AN2yhipjX5xzf28KFQWFlrLnWTGNbUg105pUxgj0lvqpqcJMRnvw+Dw1vvl7EuH8ppUA==",
   "success": true,
-  "projectFilePath": "d:\\KULIAH\\blazorwasm\\blazorwasm.csproj",
+  "projectFilePath": "D:\\KULIAH\\blazorwasm\\blazorwasm.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\LENOVO\\.nuget\\packages\\anglesharp\\0.17.1\\anglesharp.0.17.1.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\anglesharp.css\\0.16.4\\anglesharp.css.0.16.4.nupkg.sha512",
